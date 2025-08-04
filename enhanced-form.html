@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enhanced Form Example</title>
+</head>
+<body>
+    <header>
+        <h1>Welcome to My Web Page</h1>
+        <p>This page demonstrates lists, tables, media, and an HTML5 form.</p>
+    </header>
+<body>
+    <!--unordered list---->
+    <section>
+        <h2>My Favorite Fruits</h2>
+        <ul>
+            <li>Apple</li>
+            <li>Banana</li>
+            <li>Cherry</li>
+        </ul>
+    </section>
+<section>
+    <h2>African counties</h2>
+    <ol>
+        <li>Nigeria</li>
+        <li>Kenya</li>
+        <li>South Africa</li>
+    </ol>
+</section>
+    <section>
+        <h2>My Favorite Movies</h2>
+        <table border="1">
+            <tr>
+                <th>Title</th>
+                <th>Year</th>
+                <th>Director</th>
+            </tr>
+            <tr>
+                <td>The Shawshank Redemption</td>
+                <td>1994</td>
+                <td>Frank Darabont</td>
+            </tr>
+            <tr>
+                <td>The Godfather</td>
+                <td>1972</td>
+                <td>Francis Ford Coppola</td>
+            </tr>
+        </table>
+    </section>
+
+   <section>
+    <h2>Travel Media Gallery</h2>
+
+    <h3>Beautiful Destination Image</h3>
+    <figure>
+        <img src="https://i.pinimg.com/736x/30/3d/de/303dde2f6d56ca97fc03ff03914d5165.jpg" alt="View of Rome with Colosseum" width="400">
+        <figcaption>Kenya Cities</figcaption>
+    </figure>
+
+    <h3>Travel Podcast (Audio)</h3>
+    <audio controls>
+        <source src="media/TranscriptionStaff-03.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>
+
+    <h3>Travel Video from YouTube</h3>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/3DDIU4aIhmo?si=0kft05FUImbzLkYX" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</section>
+
+
+    <section>
+        <h2>Contact Form</h2>
+        <form action="/submit" method="post">
+            <label for="name">Name:</label><br>
+            <input type="text" id="name" name="name" required><br><br>
+
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email" required><br><br>
+
+            <label for="message">Message:</label><br>
+            <textarea id="message" name="message" rows="4" cols="50"></textarea><br><br>
+
+            <input type="submit" value="Submit">
+        </form>
+    </section>
